@@ -1,0 +1,128 @@
+body{
+  background-color:#000;
+  }
+  .card {
+    width: 310px;
+    background-color: #9e7b46;
+    border: 3px solid #473438;
+    border-radius: 2px;
+    margin: 0 auto;
+    font-family: sans-serif, helvetica;
+    z-index: 2;
+    transform: rotateY(0deg);
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    transition-duration: 2s;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    transform: rotateY(180deg);
+    
+  }
+  .estilo{
+    transform: rotateY(180deg);
+  }
+  
+  .estilo {
+      background-image: url(https://i.pinimg.com/564x/47/df/44/47df4444088b7a6f16bc5264a9c28d57.jpg);
+      z-index: 2;
+      overflow: auto;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-size: contain;
+  }
+  .nome {
+      width: 87%;
+      font-size: 11px;
+      text-transform: uppercase;
+      margin: 7px auto 3px auto;
+      padding: 4px;
+      box-shadow: #130f01 2px 2px 5px 0px;
+      padding-top: 6px;
+    border-radius:5px;
+      border: 1px outset rgba(112, 88, 52, 0.8);
+      margin-bottom: 4px;
+      color: #ffffff;
+      text-shadow: #0091a4 -1px -1px 4px;
+  }
+  
+  .nome img {
+    float: right;
+    width: 25px;
+  }
+  
+  .nome h1 {
+    margin: 2px;
+    display: inline;
+    font-family: "Vollkorn", sans-serif;
+  }
+  
+  .estrelas {
+    text-align: right;
+    margin-right: 32px;
+  }
+  
+  .estrelas img {
+    width: 15px;
+    margin: 0;
+  }
+  
+  .estrelas ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  .estrelas li {
+    float: right;
+    margin-left: 2px;
+  }
+  
+  .imagem {
+    text-align: center;
+  }
+  
+  .imagem img {
+      width: 85%;
+      border: 5px solid #635d4d;
+      margin-bottom: 7px;
+  }
+  
+  .detalhes {
+    width: 85%;
+    border: 3px double #99000d;
+    margin: 0 auto 10px auto;
+    padding: 6px;
+    font-size: 12px;
+    background: #edd4bb;
+  }
+  
+  .detalhes h2 {
+    padding-bottom: 3px;
+    font-size: 13px;
+    margin: 0;
+    font-family: "Vollkorn", sans-serif;
+  }
+  
+  .detalhes p {
+    font-style: italic;
+    font-size: 10px;
+    text-align: justify;
+    margin: 0;
+  }
+  
+  .detalhes hr {
+    border: 0;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 25px 0 4px 0;
+  }
+  
+  .estatisticas {
+    text-align: right;
+  }
+  
+
+  
